@@ -160,6 +160,7 @@ export PATH=${OUT_PREFIX}/bin:$PATH
 	--enable-shmop=shared \
 	--enable-soap=shared \
 	--with-xsl=shared \
+	--with-ffi \
 	"${configureopts[@]}"
 make -s -j 9
 make install -s
